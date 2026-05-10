@@ -13,7 +13,8 @@
 const http = require(“http”);
 const https = require(“https”);
 const url = require(“url”);
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
+
 
 // ─── Config ─────────────────────────────────────────────────────────────────
 // Public LibreTranslate instance (free, no key needed — may be rate-limited).
