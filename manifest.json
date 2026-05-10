@@ -11,7 +11,7 @@
       "version": "1.0.0",
       "author": "You",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/ai-translator.js",
+      "filename": "https://raw.githubusercontent.com/cristiantoc271993/nuvio-ai-translator/main/providers/ai-translator.js"
       "enabled": true,
       "formats": ["m3u8"],
       "limited": false,
