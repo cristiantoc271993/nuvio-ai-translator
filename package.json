@@ -1,0 +1,14 @@
+{
+  "name": "nuvio-ai-translator",
+  "version": "1.0.0",
+  "description": "AI-powered subtitle translator plugin for Nuvio",
+  "scripts": {
+    "server": "node server.js",
+    "build": "node build.js ai-translator",
+    "build:all": "node build.js",
+    "dev": "node build.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
