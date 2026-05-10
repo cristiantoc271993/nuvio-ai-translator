@@ -20,7 +20,7 @@ step((generator = generator.apply(__this, __arguments)).next());
 };
 
 // src/ai-translator/index.js
-var SERVER_URL = “http://localhost:3001”;
+var SERVER_URL = "https://nuvio-ai-translator.onrender.com";
 var STREAM_SOURCE = “https://vidsrc.xyz/embed”;
 function getVideoStreamUrl(tmdbId, mediaType, season, episode) {
 return __async(this, null, function* () {
