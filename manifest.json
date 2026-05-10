@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "id": "ai-translator",
+      "name": "AI Subtitle Translator",
+      "description": "Fetches foreign-language films and translates subtitles to English using AI (LibreTranslate). Requires the companion server running on your PC.",
+      "version": "1.0.0",
+      "author": "You",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/ai-translator.js",
+      "enabled": true,
+      "logo": "https://em-content.zobj.net/source/twitter/376/globe-with-meridians_1f310.png",
+      "contentLanguage": ["fr", "es", "de", "it", "pt", "ja", "ko", "zh", "ru", "ar"],
+      "formats": ["m3u8"],
+      "limited": false,
+      "supportsExternalPlayer": true
+    }
+  ]
+}
